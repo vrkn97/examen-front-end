@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*estilos del header*/ 
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+nav {
+    display: none;
+}
+.botonheader {
+    display: none;
+}
+
+.imgheader1 {
+    display: flex;
+    padding: 12% 4%;
+    margin: 1% 0%;
+    justify-content: flex-start;
+}
+.hamburguesa {
+    display: flex;
+    align-items: flex-end;
+    padding: 10%;
+    margin: 1% 40%;
+}
+
+/* empezamos con el main para mobile*/ 
+
+.mainarticle {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.imgmainarticle {
+    display: flex;
+    width: 100%;
+    margin: 0% 0% 15% 5%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+article h1 {
+    display: flex;
+    flex-direction: column;
+    color: #232C50;
+    font-size: 58px;
+    width: 100%;
+    font-weight: 700;
+    text-align:center;
+    letter-spacing: -0.035em;
+    
+}
+article p {
+    font-size: 16.56px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+    margin: 5% 13%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*estilo para todos los botones get started*/
+.boton {
+    color:#FFFFFF ;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    border-style: none;
+    padding: 10px;
+}
+
+.secondarticle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    align-items: center;
+}
+
+.secondarticle h3 {
+    color: #232851;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+#psecondarticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 151.1%;
+    color: #000000;
+    font-weight: 500;
+    margin: 5% 11% 30% 11%;
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    background-color: rgba(139, 72, 191, 30%);
+    color: #323851;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px 0px 0px 30px;
+    width: 100%;
+    margin-left: 10% ;
+}
+
+.botontitulo {
+    display: flex;
+    align-items:flex-start;
+    padding: 10px 25px;
+    background-color: #8B48BF;
+    border-radius: 30px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 69px;
+    height: 43px;
+    font-size: 16px;
+    margin-right: 2%;
+    
+}
+
+.textoarticulos {
+    display: flex;
+    align-items: center;
+    color: #B3B2B7;
+    margin: 7%;
+    font-size: 16.3px;
+    font-weight: 500;
+}
+
+/*empezamos las tarjetas para el lado mobile*/
+.thirdarticle {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thirdarticle h3 {
+    display: flex;
+    justify-content: center;
+    color: #242E53;
+    font-weight: 700;
+    font-size: 39.21px;
+    margin: 15% 0%;
+}
+
+.tarjetas {
+    background-color: #FAFAFA;
+    width: 100%;
+}
+
+.nombres {
+    color: #3F4868;
+    font-size: 16.07px;
+    font-weight: 700;
+    margin: 3%;
+}
+
+.descripcion {
+    color: #B9B9C1;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.esconder {
+    display: none;
+}
+
+/*empezamos footer*/
+
+#seccion {
+    display: flex;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8B48BF;
+    margin: 20% 0% 0% 0%;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    text-align: center; 
+    padding: 40px 80px 134px 80px;
+    width: 100vw;
+    height: 318px
+    
+
+}
+
+#seccion button {
+    color:#8B48BF ;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    border-style: none;
+    padding: 10px;
+    margin: 10% 0% 0% 0%;
+}
+
+footer
+
