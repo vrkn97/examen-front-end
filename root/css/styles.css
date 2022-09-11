@@ -12,7 +12,7 @@ header {
     width: 100vw;
 }
 
-nav {
+#listaheader {
     display: none;
 }
 .botonheader {
